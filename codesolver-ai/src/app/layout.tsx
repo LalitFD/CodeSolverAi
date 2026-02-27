@@ -11,6 +11,9 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: "CodeSolver AI",
   description: "A premium Gemini-powered coding assistant.",
+  verification: {
+    google: "EDSWSqtPvzDvhkeMOG9Ngsev3Oz7aJdfmmDmsLEtWcU",
+  },
 };
 
 export default function RootLayout({
